@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.mayday.Main2Activity">
+    <android.support.v7.widget.Toolbar
+        android:background="#ba202424"
+        android:id="@+id/main2toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        />
+
+    <!--<com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader-->
+        <!--android:id="@+id/header"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="我是recyclerView头布局"/>-->
+
+    <!--</com.bartoszlipinski.recyclerviewheader2.RecyclerViewHeader>-->
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main2_list"
+        android:layout_gravity="center_horizontal|top"
+        />
+
+
+
+
+
+</LinearLayout>
